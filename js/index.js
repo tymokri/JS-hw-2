@@ -1,17 +1,21 @@
 'use strict';
 
 // Task #1
-let name = 'John';
-let admin = 'John';
+let name;
+let admin;
+
+name = 'John';
+admin = name;
 
 alert(admin);
 
 // Task #2
-let planetName = 'Earth'
-let currentUser = 'Alex'
+let ourPlanetName;
+let currentUserName;
 
 // Task #3
 let sum = '10'+ 10;
-console.log(sum)
+console.log(typeof(sum));
+//console.log(sum);
 
 // About task #3: result of sum string + number return just a string!
